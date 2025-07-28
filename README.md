@@ -45,7 +45,6 @@
 
 ## 🔄 [Hareesh Kumar ]([url](https://www.linkedin.com/in/hareesh-kumar-02045a339/))
 
-_Add GIF showing form ➡️ data captured ➡️ report — [replace this with your own]_  
 ![Workflow GIF](https://media.giphy.com/media/WoWm8YzFQJg5i/giphy.gif)
 
 ---
