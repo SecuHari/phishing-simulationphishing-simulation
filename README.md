@@ -1,85 +1,88 @@
-#  Phishing Simulation System
+<h1 align="center">🎯 Phishing Simulation System 🎯</h1>
 
-A phishing simulation system built using Python and Flask to educate and train users to recognize and avoid phishing attacks. This project simulates phishing scenarios by serving fake login pages, logging user interactions, and detecting potentially malicious URLs.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.11-blue?logo=python" />
+  <img src="https://img.shields.io/badge/Flask-WebApp-green?logo=flask" />
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square" />
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" />
+</p>
+
+---
+
+> ⚠️ **Educational Use Only!**  
+> This phishing simulation is for cybersecurity awareness & ethical training purposes only.
 
 ---
 
 ## 🧠 Objective
 
-The project aims to simulate phishing attacks in a controlled environment to:
-- Train users to recognize phishing attempts
-- Log user interactions for analysis
-- Detect suspicious URLs using defined rules
+🎯 Simulate phishing attacks in a safe, controlled environment to:
+- 👁️ Raise awareness
+- 🧑‍💻 Log user responses
+- 🛡️ Detect suspicious behavior or URLs
+- 📊 Generate simple reports from captured data
 
 ---
 
-## ⚙️ Technology Stack
+## ⚙️ Tech Stack
 
-- Python
-- Flask
-- BeautifulSoup
-- Requests
-- HTML/CSS
-- JSON
+| Language | Framework | Parsing | HTTP | Frontend | Data Format |
+|----------|-----------|---------|------|----------|-------------|
+| Python 🐍 | Flask ⚗️ | BeautifulSoup 🍜 | Requests 🌐 | HTML/CSS 🎨 | JSON 📁 |
 
 ---
 
-## 🚀 Features
+## 🚀 Key Features
 
-✅ Fake phishing login page  
-✅ Email/password capture (educational only)  
-✅ Logging into `user_clicks.json`  
-✅ Phishing URL detection logic  
-✅ Admin-side report generation  
+✨ Fake Login Page Simulation  
+📩 Capture Email + Password (simulation only)  
+📜 Log to `logs/user_clicks.json`  
+🕵️‍♂️ Phishing Detection from URLs  
+📑 Reporting via `report.py`  
+🎯 Simple, minimal UI (customizable)
 
 ---
 
-## 📸 Screenshots
+## 🔄 Workflow Animation (GIF Placeholder)
 
-### 🖥️ 1. Home Page – Phishing Login Simulation  
+_Add GIF showing form ➡️ data captured ➡️ report — [replace this with your own]_  
+![Workflow GIF](https://media.giphy.com/media/WoWm8YzFQJg5i/giphy.gif)
+
+---
+
+## 🖼️ Screenshots
+
+### 🖥️ Home Page – Fake Login  
 ![Screenshot 1](./1.png)
 
----
-
-### 🧾 2. User Inputs Fake Credentials  
+### 🧾 User Inputs Credentials  
 ![Screenshot 2](./2.png)
 
----
-
-### 📂 3. Logs Captured in `user_clicks.json`  
+### 📂 JSON Logs  
 ![Screenshot 3](./3.png)
 
----
-
-### 🛡️ 4. Phishing Detection Module – URL Checking  
+### 🛡️ URL Phishing Detection  
 ![Screenshot 4](./4.png)
 
----
-
-### 📊 5. Report Display (from report.py)  
+### 📊 Report Output  
 ![Screenshot 5](./5.png)
 
 ---
 
-## 🧪 How It Works
-
-1. User opens the phishing page (`/`)
-2. Enters fake email and password
-3. Data is stored in a log file
-4. Admin can check suspicious URLs and user data
-5. Reports can be generated using Python scripts
-
----
-
----
-
-## 📄 Installation
+## 🔧 Installation & Run
 
 ```bash
+# 1. Clone this repository
 git clone https://github.com/yourusername/phishing-simulation.git
 cd phishing-simulation
+
+# 2. Install dependencies
 pip install flask requests beautifulsoup4
+
+# 3. Run the app
 python app.py
-Visit: http://127.0.0.1:5000
+
+# 4. Visit
+http://127.0.0.1:5000
 
 
